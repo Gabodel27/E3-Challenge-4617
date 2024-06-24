@@ -6,12 +6,17 @@
     <title>E3 Challenge</title>
     <!-- Css -->
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="animaciones.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
   </head>
   <body>
     <!-- header -->
     <header>
       <!-- logo y nombre-->
-      <a href="#">
+      <a href="#" class="name-logo">
         <img src="Img/logo-nerd.png" alt="Logo" class="logo-nerd" />
         <img src="Img/nerland-name2.png" alt="Name" class="name-nerd"
       /></a>
@@ -23,9 +28,9 @@
         /></label>
         <input type="checkbox" id="menu-toggle" />
         <ul class="navbar-list">
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Categoria</a></li>
-          <li><a href="#">Contactos</a></li>
+          <li><a href="#nerd">Inicio</a></li>
+          <li><a href="#categorias">Categoria</a></li>
+          <li><a href="#discover">Contactos</a></li>
         </ul>
       </nav>
     </header>
@@ -45,9 +50,42 @@
         <img src="Img/imagen-portada.jpg" alt="portada" class="img-nerd" />
       </section>
 
+      <!-- CATEGORIAS -->
+
+      <section id="categorias">
+        <div class="icons">
+          <!-- icons 1 -->
+          <div class="headsets">
+            <i class="fa-solid fa-headset"></i>
+            <p>HEADSETS</p>
+          </div>
+          <!-- icons 2 -->
+          <div class="joysticks">
+            <i class="fa-solid fa-gamepad"></i>
+            <p>JOYSTICKS</p>
+          </div>
+          <!-- icons 3 -->
+          <div class="teclados">
+            <i class="fa-solid fa-keyboard"></i>
+            <p>TECLADO</p>
+          </div>
+          <!-- icons 4 -->
+          <div class="mouse">
+            <i class="fa-solid fa-computer-mouse"></i>
+            <p>MOUSE</p>
+          </div>
+          <!-- icons 5 -->
+          <div class="monitor">
+            <i class="fa-solid fa-desktop"></i>
+            <p>MONITOR</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- DISCOVER -->
+
       <section id="discover">
         <!-- tarjeta 1 -->
-
         <div class="nerd-1">
           <h2>Articulos</h2>
           <p>
@@ -57,8 +95,17 @@
         </div>
 
         <!-- tarjeta 2 -->
-
         <div class="nerd-2">
+          <h2>Gift</h2>
+          <p>
+            También tenemos regalos y presentes para aquellas personas
+            diferentes que buscan algo inovador y unico, te invitamos a
+            descubrirlo!!!
+          </p>
+        </div>
+
+        <!-- tarjeta 3 -->
+        <div class="nerd-3">
           <h2>Gift</h2>
           <p>
             También tenemos regalos y presentes para aquellas personas
