@@ -69,8 +69,8 @@
   transition: 0.2s;
 }
 
-.nerd-1,
-.nerd-2,
+.nerd-1:hover,
+.nerd-2:hover,
 .nerd-3:hover {
   border: solid 2px red;
 }
